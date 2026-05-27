@@ -1,0 +1,35 @@
+:root {
+  /* Brand values are injected at runtime from src/config/brand.js */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body, system-ui, sans-serif);
+  background: var(--color-background, #FDF6EC);
+  color: var(--color-text, #1C1A17);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img,
+picture,
+video,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --radius-card: 12px;
+  --shadow-card: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --max-width: 1200px;
+  --spacing-section: 80px;
+}

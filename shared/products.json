@@ -1,0 +1,234 @@
+{
+  "categories": [
+    { "id": "whole_spices", "label": "Whole Spices", "icon": "🌿", "image": "/assets/images/web/thumbs/whole_spices_thumb.jpg" },
+    { "id": "seeds", "label": "Seeds", "icon": "🌱", "image": "/assets/images/web/thumbs/seeds_thumb.jpg" },
+    { "id": "dry_fruits", "label": "Dry Fruits", "icon": "🍇", "image": "/assets/images/web/thumbs/dry_fruits_thumb.jpg" },
+    { "id": "premium", "label": "Premium Products", "icon": "✨", "image": "/assets/images/web/thumbs/premium_thumb.jpg" }
+  ],
+  "products": [
+    {
+      "id": "organic-cassia-cinnamon",
+      "name": "Organic Cassia Cinnamon",
+      "category": "whole_spices",
+      "description": "Kerala origin | Bold aroma | Export grade",
+      "image": "/assets/images/originals/whole_spices_organic_cassia_cinnamon_detail_01_original.jpg",
+      "tags": ["organic", "bestseller"]
+    },
+    {
+      "id": "organic-malabar-black-pepper",
+      "name": "Organic Malabar Black Pepper",
+      "category": "whole_spices",
+      "description": "Premium grade | Strong peppery notes | Aromatic",
+      "image": "/assets/images/originals/whole_spices_organic_malabar_black_pepper_detail_01_original.jpg",
+      "tags": ["organic", "export"]
+    },
+    {
+      "id": "organic-alleppey-cardamom",
+      "name": "Organic Alleppey Cardamom",
+      "category": "whole_spices",
+      "description": "Green cardamom | Aromatic | Authentic flavor",
+      "image": "/assets/images/originals/whole_spices_organic_alleppey_cardamom_detail_01_original.jpg",
+      "tags": ["organic", "premium"]
+    },
+    {
+      "id": "organic-bay-leaf",
+      "name": "Organic Bay Leaf",
+      "category": "whole_spices",
+      "description": "Aromatic leaf | Export-ready | Natural drying",
+      "image": "/assets/images/originals/whole_spices_organic_bay_leaf_detail_01_original.jpg",
+      "tags": ["organic", "whole"]
+    },
+    {
+      "id": "organic-star-anise",
+      "name": "Organic Star Anise",
+      "category": "whole_spices",
+      "description": "Rich flavor | Indian origin | Batch-traced quality",
+      "image": "/assets/images/originals/whole_spices_organic_star_anise_detail_01_original.jpg",
+      "tags": ["organic", "spice"]
+    },
+    {
+      "id": "organic-mace",
+      "name": "Organic Mace",
+      "category": "whole_spices",
+      "description": "Aromatic shell | Export grade | Consistent quality",
+      "image": "/assets/images/originals/whole_spices_organic_mace_detail_01_original.jpg",
+      "tags": ["organic", "aromatic"]
+    },
+    {
+      "id": "dry-ginger",
+      "name": "Dry Ginger",
+      "category": "whole_spices",
+      "description": "Natural drying | Bold spice | Export-ready",
+      "image": "/assets/images/originals/whole_spices_dry_ginger_detail_01_original.jpg",
+      "tags": ["dry", "spice"]
+    },
+    {
+      "id": "black-sesame-seeds",
+      "name": "Black Sesame Seeds",
+      "category": "seeds",
+      "description": "Natural seeds | Clean grade | Consistent sizing",
+      "image": "/assets/images/originals/seeds_black_sesame_closeup_01_original.jpg",
+      "tags": ["seeds", "healthy"]
+    },
+    {
+      "id": "white-sesame-seeds",
+      "name": "White Sesame Seeds",
+      "category": "seeds",
+      "description": "Premium sprouted grade | Crisp & clean",
+      "image": "/assets/images/originals/seeds_white_sesame_closeup_01_original.jpg",
+      "tags": ["seeds", "snacks"]
+    },
+    {
+      "id": "coriander-seeds",
+      "name": "Coriander Seeds",
+      "category": "seeds",
+      "description": "Fresh harvest | Export quality | Aromatic",
+      "image": "/assets/images/originals/seeds_coriander_seeds_detail_01_original.jpg",
+      "tags": ["seeds", "spice"]
+    },
+    {
+      "id": "fenugreek-seeds",
+      "name": "Fenugreek Seeds",
+      "category": "seeds",
+      "description": "Golden seeds | Trade-ready | Natural drying",
+      "image": "/assets/images/originals/seeds_fenugreek_seeds_detail_01_original.jpg",
+      "tags": ["seeds", "herbal"]
+    },
+    {
+      "id": "black-nigella-kalonji",
+      "name": "Black Nigella (Kalonji)",
+      "category": "seeds",
+      "description": "Bold flavor | Export-grade | Direct from India",
+      "image": "/assets/images/originals/seeds_black_nigella_kalonji_closeup_01_original.jpg",
+      "tags": ["seeds", "specialty"]
+    },
+    {
+      "id": "ajwain",
+      "name": "Ajwain",
+      "category": "seeds",
+      "description": "Potent aroma | Consistent seed quality | Export ready",
+      "image": "/assets/images/originals/seeds_ajwain_closeup_01_original.jpg",
+      "tags": ["seeds", "traditional"]
+    },
+    {
+      "id": "fennel",
+      "name": "Fennel",
+      "category": "seeds",
+      "description": "Sweet seeds | Premium batch | Export packaging",
+      "image": "/assets/images/originals/seeds_fennel_closeup_01_original.jpg",
+      "tags": ["seeds", "digestive"]
+    },
+    {
+      "id": "brown-cumin",
+      "name": "Brown Cumin",
+      "category": "seeds",
+      "description": "Deep aroma | Export-ready | Consistent grading",
+      "image": "/assets/images/originals/seeds_brown_cumin_closeup_01_original.jpg",
+      "tags": ["seeds", "cooking"]
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard",
+      "category": "seeds",
+      "description": "High oil content | Trade-grade | Natural drying",
+      "image": "/assets/images/originals/seeds_mustard_closeup_01_original.jpg",
+      "tags": ["seeds", "condiment"]
+    },
+    {
+      "id": "prunes",
+      "name": "Prunes",
+      "category": "dry_fruits",
+      "description": "Naturally dried | Sweet | Rich nutrients",
+      "image": "/assets/images/originals/dry_fruits_prunes_01_original.jpg",
+      "tags": ["dry_fruits", "snacks"]
+    },
+    {
+      "id": "foxnuts-makhana",
+      "name": "Foxnuts (Makhana)",
+      "category": "dry_fruits",
+      "description": "Light crunch | Premium snack | Export quality",
+      "image": "/assets/images/originals/dry_fruits_foxnuts_01_original.jpg",
+      "tags": ["dry_fruits", "snacks"]
+    },
+    {
+      "id": "almonds",
+      "name": "Almonds",
+      "category": "dry_fruits",
+      "description": "Premium whole nuts | Clean grading | Export-standard",
+      "image": "/assets/images/originals/dry_fruits_almonds_01_original.jpg",
+      "tags": ["dry_fruits", "nuts"]
+    },
+    {
+      "id": "cashews",
+      "name": "Cashews",
+      "category": "dry_fruits",
+      "description": "Large kernels | Fresh batch | Trade-ready",
+      "image": "/assets/images/originals/dry_fruits_cashews_01_original.jpg",
+      "tags": ["dry_fruits", "nuts"]
+    },
+    {
+      "id": "dried-figs",
+      "name": "Dried Figs",
+      "category": "dry_fruits",
+      "description": "Sun-dried | Sweet | High fiber",
+      "image": "/assets/images/originals/dry_fruits_dried_figs_01_original.jpg",
+      "tags": ["dry_fruits", "healthy"]
+    },
+    {
+      "id": "dried-turmeric-finger",
+      "name": "Dried Turmeric Finger",
+      "category": "dry_fruits",
+      "description": "Premium root | Rich color | Export-quality",
+      "image": "/assets/images/originals/dry_fruits_dried_turmeric_fingers_01_original.jpg",
+      "tags": ["dry_fruits", "spice"]
+    },
+    {
+      "id": "lakadong-turmeric-powder",
+      "name": "Lakadong Turmeric Powder",
+      "category": "dry_fruits",
+      "description": "Single-origin | High curcumin | Export grade",
+      "image": "/assets/images/originals/dry_fruits_lakadong_turmeric_powder_01_original.jpg",
+      "tags": ["dry_fruits", "premium"]
+    },
+    {
+      "id": "kabuli-hing-powder",
+      "name": "Kabuli Hing Powder",
+      "category": "dry_fruits",
+      "description": "Aromatic resin powder | Trade-ready packaging",
+      "image": "/assets/images/originals/dry_fruits_kabuli_hing_powder_01_original.jpg",
+      "tags": ["dry_fruits", "spice"]
+    },
+    {
+      "id": "organic-black-crystal-salt",
+      "name": "Organic Black Crystal Salt",
+      "category": "premium",
+      "description": "Mineral-rich crystals | Natural sea salt | Export quality",
+      "image": "/assets/images/originals/premium_black_crystal_salt_01_original.jpg",
+      "tags": ["premium", "salt"]
+    },
+    {
+      "id": "himalayan-pink-rock-salt",
+      "name": "Himalayan Pink Rock Salt",
+      "category": "premium",
+      "description": "Pure mountain salt | Rich mineral profile | Trade grade",
+      "image": "/assets/images/originals/premium_himalayan_pink_rock_salt_01_original.jpg",
+      "tags": ["premium", "salt"]
+    },
+    {
+      "id": "organic-whole-tamarind",
+      "name": "Organic Whole Tamarind",
+      "category": "premium",
+      "description": "Natural pods | Export batch | Authentic taste",
+      "image": "/assets/images/originals/premium_organic_whole_tamarind_01_original.jpg",
+      "tags": ["premium", "fruit"]
+    },
+    {
+      "id": "kashmir-saffron",
+      "name": "Kashmir Saffron",
+      "category": "premium",
+      "description": "Premium threads | Rich color | Authentic taste",
+      "image": "/assets/images/originals/premium_kashmir_saffron_01_original.jpg",
+      "tags": ["premium", "spice"]
+    }
+  ]
+}
