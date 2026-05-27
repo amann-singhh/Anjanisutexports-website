@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { brand } from '../config/brand'
 
 export default function Contact(){
+  const API_BASE = import.meta.env.VITE_API_URL || '/api'
   const [form, setForm] = useState({ name: '', email: '', company: '', country: '', products: '', message: '' })
   const [status, setStatus] = useState(null)
   const [product, setProduct] = useState('')
@@ -20,7 +21,7 @@ export default function Contact(){
     setStatus('sending')
 
     try {
-      const res = await fetch('/api/enquiries', {
+      const res = await fetch(`${API_BASE}/enquiries`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...form, products: product || form.products }),

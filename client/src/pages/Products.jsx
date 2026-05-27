@@ -28,12 +28,13 @@ function ProductCard({ product, onOpen }) {
 }
 
 export default function Products(){
+  const API_BASE = import.meta.env.VITE_API_URL || '/api'
   const [data, setData] = useState(null)
   const [activeFilter, setActiveFilter] = useState(null)
   const [lightbox, setLightbox] = useState({ open: false, src: '', alt: '' })
 
   useEffect(() => {
-    fetch('/api/products')
+    fetch(`${API_BASE}/products`)
       .then((response) => response.json())
       .then(setData)
       .catch(console.error)
