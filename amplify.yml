@@ -4,7 +4,6 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd client
         - npm install
 
     build:
@@ -12,17 +11,10 @@ frontend:
         - npm run build
 
   artifacts:
-    baseDirectory: client/dist
+    baseDirectory: dist
     files:
       - '**/*'
 
   cache:
     paths:
-      - client/node_modules/**/*
-
-backend:
-  phases:
-    build:
-      commands:
-        - cd server
-        - npm install
+      - node_modules/**/*
