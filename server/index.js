@@ -10,34 +10,10 @@ app.use(cors())
 app.use(express.json())
 
 // Paths
-const productsPath = path.join(__dirname, '..', 'shared', 'products.json')
 const enquiriesPath = path.join(__dirname, 'enquiries.json')
 
 // =========================
-// GET PRODUCTS
-// =========================
-app.get('../data/products.json', (req, res) => {
-  fs.readFile(productsPath, 'utf8', (err, data) => {
-    if (err) {
-      console.error('Failed to read products file', err)
 
-      return res.status(500).json({
-        error: 'Could not read products file',
-      })
-    }
-
-    try {
-      const json = JSON.parse(data)
-      res.json(json)
-    } catch (error) {
-      console.error('Invalid products file', error)
-
-      res.status(500).json({
-        error: 'Invalid products file',
-      })
-    }
-  })
-})
 
 // =========================
 // SAVE ENQUIRY
