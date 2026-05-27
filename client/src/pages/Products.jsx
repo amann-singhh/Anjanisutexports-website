@@ -34,7 +34,7 @@ export default function Products(){
   const [lightbox, setLightbox] = useState({ open: false, src: '', alt: '' })
 
   useEffect(() => {
-    fetch(`${API_BASE}/products`)
+    fetch(`../data/products.json`)
       .then((response) => response.json())
       .then(setData)
       .catch(console.error)
