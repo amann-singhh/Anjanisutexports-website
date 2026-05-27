@@ -1,3 +1,3 @@
-import productsData from '../data/products.json'
+import productsData from 'products.json'
 
 export const products = productsData.products
