@@ -16,7 +16,7 @@ const enquiriesPath = path.join(__dirname, 'enquiries.json')
 // =========================
 // GET PRODUCTS
 // =========================
-app.get('/api/products', (req, res) => {
+app.get('../data/products.json', (req, res) => {
   fs.readFile(productsPath, 'utf8', (err, data) => {
     if (err) {
       console.error('Failed to read products file', err)

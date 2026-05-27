@@ -7,7 +7,7 @@
 - Added client-side dynamic content data files under `client/src/data/`
 - Added shared product source file at `shared/products.json`
 - Added theme injection files under `client/src/styles/`
-- Updated `server/index.js` to expose `/api/products` and `/api/enquiries`
+- Updated `server/index.js` to expose `../data/products.json` and `/api/enquiries`
 - Updated client pages and components to consume config/data instead of hardcoded values
 - Added dynamic copyright year and footer content from brand config
 - Added mobile-responsive navigation, product grid, contact form, and layout updates
