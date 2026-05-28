@@ -21,9 +21,9 @@ export const brand = {
 
   contact: {
     email: "info@anjanisut.com",
-    whatsapp: "+918800000000",
-    phone: "+918800000000",
-    address: "Bhopal, Madhya Pradesh, India",
+    whatsapp: "+919516200725",
+    phone: "+919516200725",
+    address: "Mumbai, Maharashtra, India",
   },
 
   social: {
