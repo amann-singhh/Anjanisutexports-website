@@ -1,7 +1,7 @@
 export const brand = {
   name: "Anjanisut Enterprises",
   tagline: "Premium Indian spices & agro products — 12+ years of experience",
-  logo: "/assets/logo.png",
+  logo: "/assets/images/originals/logo.png",
   favicon: "/assets/favicon.ico",
 
   colors: {
@@ -36,7 +36,6 @@ export const brand = {
     title: "Anjanisut Enterprises — Organic Indian Spices Exporter",
     description: "Premium organic spices, seeds & agro products from India. 12+ years of experience. Now serving international distributors.",
     keywords: "organic spices India, spice exporter, cardamom, black pepper, cinnamon export",
-    ogImage: "../../public/assets/images/originals/logo.png",
-    
+    ogImage: "/assets/og-image.png",
   },
 }
