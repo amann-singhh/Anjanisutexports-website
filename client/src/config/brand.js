@@ -36,6 +36,6 @@ export const brand = {
     title: "Anjanisut Enterprises — Organic Indian Spices Exporter",
     description: "Premium organic spices, seeds & agro products from India. 12+ years of experience. Now serving international distributors.",
     keywords: "organic spices India, spice exporter, cardamom, black pepper, cinnamon export",
-    ogImage: "/assets/og-image.png",
+    ogImage: "/assets/images/originals/logo.png",
   },
 }
